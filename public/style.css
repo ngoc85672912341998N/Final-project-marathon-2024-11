@@ -1,0 +1,133 @@
+.chatbot {
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    width: 60px;
+    height: 60px;
+    background-color: #07121a;
+    border-radius: 30px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.chatbot:hover {
+    background-color: aqua;
+}
+
+.chat {
+    width: 350px;
+    height: 470px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 25px;
+    right: 75px;
+    opacity: 0;
+    /* Bắt đầu với độ mờ (opacity) là 0 */
+    transition: opacity 0.5s ease;
+    /* Thuộc tính transition: opacity với thời gian 1s và hàm chuyển động là ease */
+    box-shadow: 5px 5px 5px 5px #aaaa;
+}
+
+.chat-messeage2 {
+    width: 330px;
+    height: 330px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    scrollbar-width: thin; /* Thin, auto hoặc none */
+    scrollbar-color: #6cb2eb #f0f0f0; /* Màu sắc cho thumb và track */
+    overflow-y: auto;
+}
+
+.dot {
+    width: 7px;
+    height: 7px;
+    background-color: green;
+    border-radius: 50%;
+  }
+
+  
+#chat-close{
+    margin-left: 52%;
+    cursor: pointer;
+    font-style: bold;
+}
+
+#chat-lable{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#chat-close:hover{
+    background-color: #000000;
+    color: white;
+}
+
+/* Màu nền của thanh cuộn */
+.chat-message2::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Màu của thanh cuộn khi cuộn */
+  .chat-message2::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Màu nền của thanh cuộn khi hover */
+  .chat-message2::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+#messeage{
+    width: 80%;
+    height: 30px;
+    background-color: #6cb2eb;
+}
+
+.chat-icon {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.bubble {
+    width: 12px;
+    height: 12px;
+    background-color: #6cb2eb;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+.bubble:nth-child(1) {
+    left: 10px;
+}
+
+.bubble:nth-child(2) {
+    left: 25px;
+    animation: bubble2 1s infinite alternate;
+}
+
+.bubble:nth-child(3) {
+    left: 40px;
+    animation: bubble3 1s infinite alternate;
+}
+
+@keyframes bubble2 {
+    from {
+        bottom: 0;
+    }
+
+    to {
+        bottom: 10px;
+    }
+}
+
+@keyframes bubble3 {
+    from {
+        bottom: 0;
+    }
+
+    to {
+        bottom: 15px;
+    }
+}

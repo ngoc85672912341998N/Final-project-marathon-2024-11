@@ -1,0 +1,3 @@
+"id","name","status","email","phone","id_roles","email_verified_at","password","remember_token","created_at","updated_at"
+"1","khanhngoc85672912345","1","khanhngoc945612@gmail.com","0987767878","1",NULL,"$2y$12$0tf20KeK.w/krMXP3XrkVukau.I68Ts3cib/wVfg36gexJx.O5pHG","pMrgLinjRuBH5XycAaSAz0zT4wMzr7Ac5MTaBvYpDZ33s08bIdaTF7czReBQ","2024-03-04 11:28:34","2024-03-04 11:28:28"
+"5","ngoctran11","1","trankhanhngoc19921298@gmail.com","0356789123","2",NULL,"$2y$12$DjA.cOzkTBh3P.o1BbvIiOlbSyPCVfK9diMBapg9q7fJB6idGmb.e",NULL,"2024-03-17 12:15:17","2024-03-17 12:20:29"

@@ -1,0 +1,32 @@
+[
+    {
+        "model-name": "courses",
+        "resource-file": "courses.json",
+        "table-name": "courses"
+    },
+    {
+        "model-name": "module_courses",
+        "resource-file": "module_courses.json",
+        "table-name": "module_courses"
+    },
+    {
+        "model-name": "bills",
+        "resource-file": "bills.json",
+        "table-name": "bills"
+    },
+    {
+        "model-name": "oders",
+        "resource-file": "oders.json",
+        "table-name": "oders"
+    },
+    {
+        "model-name": "classes",
+        "resource-file": "classes.json",
+        "table-name": "classes"
+    },
+    {
+        "model-name": "list_courses",
+        "resource-file": "list_courses.json",
+        "table-name": "list_courses"
+    }
+]
